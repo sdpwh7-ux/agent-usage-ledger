@@ -1,0 +1,9 @@
+line-length = 140
+target-version = "py39"
+
+[lint]
+select = ["E", "F", "W"]
+ignore = ["E701", "E702", "E731", "E741"]
+
+[lint.per-file-ignores]
+"tests/*" = ["E501"]
